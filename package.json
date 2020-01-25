@@ -1,0 +1,25 @@
+{
+  "name": "climate-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "tsc",
+    "start": "node server.js"
+  },
+  "author": "Arvind Singh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel-plugin-typescript": "^1.0.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.5.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "react": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
+}
